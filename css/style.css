@@ -171,17 +171,17 @@ nav .links a:hover::before {
   z-index: 0;
 }
 .wave-line .line1 {
-  background: url(/assets/line1.svg) repeat-x;
+  background: url(./assets/line1.svg) repeat-x;
   background-size: contain;
   animation: lineOne 60s linear infinite;
 }
 .wave-line .line2 {
-  background: url(/assets/line2.svg) repeat-x;
+  background: url(./assets/line2.svg) repeat-x;
   background-size: contain;
   animation: lineTwo 60s linear infinite;
 }
 .wave-line .line3 {
-  background: url(/assets/line3.svg) repeat-x;
+  background: url(./assets/line3.svg) repeat-x;
   background-size: contain;
   animation: lineThree 60s linear infinite;
 }
