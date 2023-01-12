@@ -1,0 +1,141 @@
+.contact {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    min-height: 90vh;
+    position: relative;
+
+    h1 {
+        font-size: 4rem;
+        margin: 0vh 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    img {
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        z-index: 1;
+        overflow: hidden;
+    }
+}
+
+.contact-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+  
+.form {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    width: 320px;
+    z-index: 3;
+
+    .input-container {
+        height: 50px;
+        position: relative;
+        width: 100%;
+    }
+
+    .ic1 {
+        margin-top: 40px;
+    }
+      
+    .ic2 {
+        margin-top: 30px;
+    }
+}
+  
+.input {
+    background-color: $my-blue;
+    border: 0;
+    box-sizing: border-box;
+    color: $my-yellow;
+    font-size: 18px;
+    outline: 0;
+    height: 100%;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.textarea {
+    padding-top: 15px;
+}
+  
+.cut {
+    background-color: $my-yellow;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 52px;
+}
+  
+.cut-short {
+    width: 95px;
+}
+  
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+}
+  
+.placeholder {
+    color: $my-yellow;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+  
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+  
+.input:not(:placeholder-shown) ~ .placeholder {
+    color: $my-blue;
+}
+  
+.input:focus ~ .placeholder {
+    color: $my-blue;
+}
+
+/**** Button ****/
+  
+button {
+    background: none;
+    border: 2px solid;
+    line-height: 1;
+    display: block;
+    margin: 2.5rem auto;
+    padding: .5em 2em;
+    color: $my-blue;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        border-color: $my-blue;
+        color: $my-yellow;
+        box-shadow: inset 8rem 0 0 0 $my-blue;
+    }
+}
