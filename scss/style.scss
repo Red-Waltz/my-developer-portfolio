@@ -448,7 +448,18 @@ footer {
         display: none;
     }
 
-
+    .wave-line {
+        .line1 {
+            animation: lineOne 10s linear infinite;
+        }
+        .line2 {
+            animation: lineTwo 10s linear infinite;
+        }
+        .line3 {
+            animation: lineThree 10s linear infinite;
+        }
+    }
+    
     .skills-container {
         display: flex;
         flex-direction: column;
