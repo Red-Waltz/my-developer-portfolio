@@ -4,5 +4,4 @@
 
 <p align="center"><a href="https://red-waltz.github.io/Coursera-meta-mangata-and-gallo-project">Live Website</a></p>
 
-
-![Website Preview](https://github.com/Red-Waltz/my-developer-portfolio/assets/project_portfolio.png?raw=true)
+<img src="https://github.com/Red-Waltz/my-developer-portfolio/assets/project_portfolio.png" width="350" alt="Preview of my website">
