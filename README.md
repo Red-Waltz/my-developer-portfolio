@@ -15,4 +15,4 @@
 
 <div align="center">
 <img src="assets/project_portfolio.png" alt="Preview of my website">
-</div>
+</div> 
