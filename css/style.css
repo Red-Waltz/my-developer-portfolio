@@ -541,7 +541,7 @@ nav .links a:hover::before {
   height: 0;
 }
 .cd-l-grp a:active {
-  border-width: 1px;
+  border-width: 2px;
 }
 .cd-l-grp a::before, .cd-l-grp a::after {
   content: "";
