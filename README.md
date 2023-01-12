@@ -4,4 +4,6 @@
 
 <p align="center"><a href="">Live Website</a></p>
 
-<img src="assets/project_portfolio.png" width="350" alt="Preview of my website">
+<div align="center">
+<img src="assets/project_portfolio.png" alt="Preview of my website">
+</div>
