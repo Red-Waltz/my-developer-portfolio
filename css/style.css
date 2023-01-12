@@ -748,6 +748,15 @@ footer {
   .vert-line-left, .vert-line-right {
     display: none;
   }
+  .wave-line .line1 {
+    animation: lineOne 10s linear infinite;
+  }
+  .wave-line .line2 {
+    animation: lineTwo 10s linear infinite;
+  }
+  .wave-line .line3 {
+    animation: lineThree 10s linear infinite;
+  }
   .skills-container {
     display: flex;
     flex-direction: column;
