@@ -1,6 +1,6 @@
 // Animation volet déroulant droite
 
-const burger = document.querySelector('nav')
+const burger = document.querySelector('.menu-btn')
 
 burger.addEventListener('click', () => {
     if(burger.classList.contains('active')){
